@@ -4,24 +4,23 @@ public class Program
         static void Main()
         {
 
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(bool), sizeof(bool), bool.TrueString, bool.FalseString);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(byte), sizeof(byte), byte.MinValue, byte.MaxValue);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(sbyte), sizeof(sbyte), sbyte.MinValue, sbyte.MaxValue);
+            Console.WriteLine("minimum of bytes is {0}, maximum of bytes is {1} ", byte.MinValue, byte.MaxValue);
+            Console.WriteLine("minimum of sbytes is {0}, maximum of sbytes is {1} ", sbyte.MinValue, sbyte.MaxValue);
 
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(char), sizeof(char), char.MinValue, char.MaxValue);
+            Console.WriteLine("minimum of bools is {0}, maximum of bool is {1} ", bool.TrueString, bool.FalseString);
+            Console.WriteLine("minimum of char is {0}, maximum of char is {1} ", char.MinValue, char.MaxValue);
 
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(short), sizeof(short), short.MinValue, short.MaxValue);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(ushort), sizeof(ushort), ushort.MinValue, ushort.MaxValue);
+            Console.WriteLine("minimum of short is {0}, maximum of short is {1} ", short.MinValue, short.MaxValue);
+            Console.WriteLine("minimum of ushort is {0}, maximum of ushort is {1} ", ushort.MinValue, ushort.MaxValue);
 
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(int), sizeof(int), int.MinValue, int.MaxValue);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(uint), sizeof(uint), uint.MinValue, uint.MaxValue);
+            Console.WriteLine("minimum of int is {0}, maximum of int is {1} ", int.MinValue, int.MaxValue);
+            Console.WriteLine("minimum of uint is {0}, maximum of uint is {1} ", uint.MinValue, uint.MaxValue);
 
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(long), sizeof(long), long.MinValue, long.MaxValue);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(ulong), sizeof(ulong), ulong.MinValue, ulong.MaxValue);
+            Console.WriteLine("minimum of long is {0}, maximum of long is {1} ", long.MinValue, long.MaxValue);
+            Console.WriteLine("minimum of ulong is {0}, maximum of ulong is {1} ", ulong.MinValue, ulong.MaxValue);
 
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(decimal), sizeof(decimal), decimal.MinValue, decimal.MaxValue);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(float), sizeof(float), float.MinValue, float.MaxValue);
-            Console.WriteLine("size of {0} \tis \t{1} bytes, \tmin:{2} max:{3} ", typeof(double), sizeof(double), double.MinValue, double.MaxValue);
+            Console.WriteLine("minimum of float is {0}, maximum of float is {1} ", float.MinValue, float.MaxValue);
+            Console.WriteLine("minimum of double is {0}, maximum of double is {1} ", double.MinValue, double.MaxValue);
 
             double a;
             double b;
